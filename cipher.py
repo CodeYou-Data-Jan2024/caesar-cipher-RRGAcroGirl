@@ -5,4 +5,4 @@ ans = ""
 for l in sentence:
     ans += cipher.get(l,l)
 
-print(ans)
+print("The encrypted sentence is:", ans)
